@@ -1,0 +1,25 @@
+package trocas;
+
+public class BubbleSort {
+	
+	private static int aux =0;
+	
+	public static int[] ordenaBubble(int[]array ){
+		
+		boolean troca = true;
+		while () {
+			
+			
+		}
+		
+		for (int i = 0; i < array.length -1; i++) {
+			if(array[pos] > array[pos+1]){
+				array[pos] = array[pos+1];
+				array[pos+1] = array[pos];
+				pos++;
+			}
+		}
+		return array;
+	}
+
+}

@@ -1,0 +1,12 @@
+package trocas;
+
+public class BubbleSort {
+	
+	private Object array[];
+	
+	public void ordenaBubble(Object[]array ){
+		this.array =  new array[array.length];
+		
+	}
+
+}
