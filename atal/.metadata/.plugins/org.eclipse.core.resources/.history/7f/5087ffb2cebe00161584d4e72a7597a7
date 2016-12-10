@@ -1,0 +1,6 @@
+package pilha;
+
+public class Pilha {
+	static final int MAX = 0;
+
+}

@@ -1,0 +1,15 @@
+package fila;
+
+public class Fila {
+	
+	private int inicio = 0;
+	private int fim = 0;
+	
+	
+	public void enfileirar(int elemento){
+		if(inicio ==  fim){
+			
+		}
+	}
+
+}

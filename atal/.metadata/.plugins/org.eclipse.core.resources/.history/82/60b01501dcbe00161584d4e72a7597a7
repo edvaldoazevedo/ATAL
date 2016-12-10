@@ -1,0 +1,12 @@
+package deque;
+
+public class DequeApp {
+	
+	public static void main(String[] args) {
+		 
+		Deque deque = new Deque(5);
+		deque.addPrimeiro(1);
+	}
+	
+
+}

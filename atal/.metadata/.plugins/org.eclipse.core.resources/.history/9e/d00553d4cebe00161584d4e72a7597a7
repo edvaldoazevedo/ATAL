@@ -1,0 +1,14 @@
+package pilha;
+
+public class Pilha {
+	static final int MAX = 0;
+	private int n;
+	private int vetor[];
+	
+	
+	public Pilha criaPilha(){
+		return null;
+		
+	}
+
+}

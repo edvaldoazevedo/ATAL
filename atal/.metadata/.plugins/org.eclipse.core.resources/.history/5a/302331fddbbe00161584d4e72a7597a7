@@ -1,0 +1,8 @@
+package deque;
+
+public class DequeApp {
+	
+	Deque deque = new Deque(5);
+	
+
+}

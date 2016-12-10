@@ -1,0 +1,33 @@
+package fila;
+
+public class Fila {
+
+	private int inicio = 0;
+	private int fim = 0;
+	private int fila[];
+	private int size =0;
+
+	public Fila(int tam) {
+		fila = new int[tam];
+	}
+
+	public void enfileirar(int elemento) {
+		if(size == fila.length){
+			System.out.println("Fila Completa");
+		}
+		
+	}
+	public int desinfileirar() {
+		int elemento = fila[inicio];
+		fila[inicio] = fila[inicio + 1];
+		return elemento;
+	}
+	public void isfull(){
+		if(fila[fim] == fila.length){
+			System.out.println(" Fila Cheia");
+		}else{
+			System.out.println("Fila Livre");
+		}
+	}
+
+}

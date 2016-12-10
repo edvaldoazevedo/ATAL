@@ -1,0 +1,27 @@
+package fila;
+
+public class FilaApp {
+	public static void main(String[] args) {
+		
+		Fila fila = new Fila(10);
+		fila.enfileirar(1);
+		fila.enfileirar(5);
+		fila.enfileirar(3);
+		System.out.println(fila.desinfileirar());
+		System.out.println(fila.desinfileirar());
+		System.out.println(fila.desinfileirar());
+		
+		fila.enfileirar(10);
+		fila.enfileirar(9);
+		fila.enfileirar(8);
+		fila.enfileirar(10);
+		fila.enfileirar(9);
+		fila.enfileirar(8);
+		System.out.println(fila.desinfileirar());
+		
+		System.out.println(fila.desinfileirar());
+		System.out.println(fila.desinfileirar());
+		System.out.println(fila.desinfileirar());
+		
+	}
+}

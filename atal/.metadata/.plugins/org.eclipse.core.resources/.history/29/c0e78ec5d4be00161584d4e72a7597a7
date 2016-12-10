@@ -1,0 +1,36 @@
+package pilha;
+
+public class Pilha {
+	
+	private int topo = 0;
+	private Object vetor[];
+	private int size;
+	
+	
+	public Pilha(int capacidade){
+		vetor = new Object[capacidade];
+		topo= 0;
+		
+	}
+	
+	public Object push(int elemento ){
+		if(topo == vetor.length){
+			return null;
+		}
+		vetor[topo] = elemento;
+		topo++;
+		return elemento;
+	}
+	
+	public Object peek(){
+	 int elemento = (int) vetor[topo - 1]; 
+	 return elemento;
+	}
+	public Object pop(){
+		int removido = (int) vetor[topo-1];
+		vetor[topo-1] = null;
+		
+	}
+	
+
+}

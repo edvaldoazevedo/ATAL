@@ -1,0 +1,33 @@
+package fila;
+
+public class Fila {
+
+	private int inicio = 0;
+	private int fim = 0;
+	private int fila[];
+
+	public Fila(int tam) {
+		// TODO Auto-generated constructor stub
+	}
+	public void enfileirar(int tamanhoFila,int elemento) {
+		fila = new int[tamanhoFila];
+		fila[fim] = elemento;
+		if (fila[fim] == fila.length) {
+			fila[fim] = 1;
+		} else {
+			fila[fim] = fila[fim] + 1;
+		}
+
+	}
+
+	public int desinfileirar() {
+		int elemento = fila[inicio];
+		if (fila[inicio] == fila.length) {
+			fila[inicio] = 1;
+		}else{
+			fila[inicio] = fila[inicio +1];
+		}
+		return elemento;
+	}
+
+}

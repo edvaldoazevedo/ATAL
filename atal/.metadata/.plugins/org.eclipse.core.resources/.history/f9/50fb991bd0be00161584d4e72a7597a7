@@ -1,0 +1,21 @@
+package pilha;
+
+public class Pilha {
+	static final int MAX = 50;
+	private int n;
+	private int vetor[] = new int [MAX];
+	private Pilha p;
+	
+	
+	public Pilha criaPilha(){
+		p = new Pilha();
+		p.n = 0;
+		
+		return p;
+	}
+	
+	public void push(){
+		
+	}
+
+}

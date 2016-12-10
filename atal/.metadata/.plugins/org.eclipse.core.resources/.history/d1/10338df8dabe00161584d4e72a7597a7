@@ -1,0 +1,27 @@
+package deque;
+
+public class Deque {
+	
+	private Object array[];
+	private int head;
+	private int size;
+	
+	
+	public Deque(int capacidade) {
+		array =  new Object[capacidade];
+	}
+	
+	public void addPrimeiro(int elemento){
+		verificarCapacidade();
+		if(head == 0){
+			array[head] = elemento;
+		}
+	}
+	
+	public void verificarCapacidade(){
+		if(array.length == size){
+			System.out.println("Deque is Full");
+		}
+	}
+
+}

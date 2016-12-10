@@ -1,0 +1,10 @@
+package fila;
+
+public class FilaApp {
+	public static void main(String[] args) {
+		
+		Fila fila = new Fila();
+		System.out.println(fila.enfileirar(1));
+		
+	}
+}
