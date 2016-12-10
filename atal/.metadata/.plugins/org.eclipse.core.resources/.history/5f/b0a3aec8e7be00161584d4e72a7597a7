@@ -33,7 +33,7 @@ public class TesteBublle {
 		int ordenaQuick[]=QuickSort.ordenaQuickSort(array, 0, array.length-1);
 		
 		for (int i = 0; i < ordenaQuick.length; i++) {
-			System.out.println(ordenaQuick[i]);
+			System.out.println(arrayOrdenado[i]);
 		}
 
 	}

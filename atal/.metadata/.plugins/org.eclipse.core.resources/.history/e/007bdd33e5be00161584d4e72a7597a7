@@ -1,0 +1,10 @@
+package trocas;
+
+public class QuickSort {
+	
+	public static int[] ordenaQuickSort(int [] array, int inicio, int fim){
+		return array;
+		
+	}
+
+}
