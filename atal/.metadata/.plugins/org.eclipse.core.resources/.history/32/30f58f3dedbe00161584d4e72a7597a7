@@ -1,0 +1,9 @@
+package insercao;
+
+public class InsertionSort {
+	
+	public static int[] ordenaInsertionSort(int []array, int n){
+		
+	}
+
+}

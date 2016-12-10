@@ -1,0 +1,14 @@
+package insercao;
+
+public class InsertionSort {
+	
+	private int i;
+	private int j;
+	private int chave;
+	
+	public static int[] ordenaInsertionSort(int []array, int n){
+		return array;
+		
+	}
+
+}

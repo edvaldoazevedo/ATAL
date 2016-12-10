@@ -1,0 +1,23 @@
+package insercao;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		
+		int array[] = new int[10];
+		array[0] = 1;
+		array[1] = 50;
+		array[2] = 20;
+		array[3] = 10;
+		array[4] = 5;
+		array[5] = 8;
+		array[6] = 22;
+		array[7] = 3;
+		array[8] = 2;
+		array[9] = 9;
+		
+		int []array = InsertionSort.ordenaInsertionSort(array, 10);
+		
+	}
+
+}
