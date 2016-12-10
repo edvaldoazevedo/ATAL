@@ -1,0 +1,9 @@
+package selecao;
+
+public class SelectionSort {
+	
+	public static int[] ordenaSelectionSort(int []vetor,int tam){
+		
+	}
+
+}

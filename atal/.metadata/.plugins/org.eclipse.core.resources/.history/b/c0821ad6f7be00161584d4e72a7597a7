@@ -1,0 +1,17 @@
+package selecao;
+
+public class SelectionSort {
+	
+	private int i;
+	private int j;
+	private int min;
+	
+	public static int[] ordenaSelectionSort(int []vetor){
+		
+		for (int i = 0; i < vetor.length-1; i++) {
+			
+		}
+		
+	}
+
+}

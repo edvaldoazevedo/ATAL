@@ -21,15 +21,8 @@ public class Teste {
 		int arrayOrdenado[] = InsertionSort.ordenaInsertionSort(array, 10);
 		int ordenadoSelection[] = SelectionSort.ordenaSelectionSort(array);
 		
-		System.out.println("------Ordenado Com InsertionSort---------");
-		
 		for (int i = 0; i < arrayOrdenado.length; i++) {
 			System.out.println(arrayOrdenado[i]);
-		}
-		
-		System.out.println("-----Ordenado Com SelectSort-------");
-		for (int i = 0; i < ordenadoSelection.length; i++) {
-			System.out.println(ordenadoSelection[i]);
 		}
 		
 	}
